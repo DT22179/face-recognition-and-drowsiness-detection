@@ -1,17 +1,9 @@
 channels:
-     - defaults
      - conda-forge
-     - ericmjl
  dependencies:
      - dlib
      - numpy
      - scipy
      - opencv
      - face_recognition
-     - pip
-       - streamlit
-       - scikit-learn==1.0.2
-       - sklearn==0.0
-       - tensorflow==2.8.0
-       
        
