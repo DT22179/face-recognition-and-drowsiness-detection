@@ -2,11 +2,3 @@ channels:
   - conda-forge
 dependencies:
   - dlib
-  - numpy
-  - pandas
-  - tensorflow
-  - cmake
-  - dlib
-  - face_recognition
-  - streamlit
-
