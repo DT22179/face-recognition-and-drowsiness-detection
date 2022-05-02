@@ -1,6 +1,12 @@
-name: dlib
 channels:
   - conda-forge
 dependencies:
-  - streamlit 
   - dlib
+  - numpy
+  - pandas
+  - tensorflow
+  - cmake
+  - dlib
+  - face-recognition
+  - streamlit
+
