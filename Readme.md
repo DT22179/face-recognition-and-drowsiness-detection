@@ -37,3 +37,20 @@ To train a neural model from scratch, a lot of data is typically needed, but acc
 
 
 Because the model has already been pre-trained, a good machine learning model can be generated with fairly little training data using transfer learning. This is especially useful in natural language processing, where huge labelled datasets require a lot of expert knowledge. Additionally, training time is decreased because building a deep neural network from the start of a complex task can take days or even weeks.
+
+## Mobilenet Architecture
+
+MobileNet is an efficient and portable CNN architecture that is used in real world applications. MobileNets primarily use depthwise seperable convolutions in place of the standard convolutions used in earlier architectures to build lighter models.MobileNets introduce two new global hyperparameters(width multiplier and resolution multiplier) that allow model developers to trade off latency or accuracy for speed and low size depending on their requirements.
+
+MobileNets are built on depthwise seperable convolution layers.Each depthwise seperable convolution layer consists of a depthwise convolution and a pointwise convolution.Counting depthwise and pointwise convolutions as seperate layers, a MobileNet has 28 layers.A standard MobileNet has 4.2 million parameters which can be further reduced by tuning the width multiplier hyperparameter appropriately.
+The size of the input image is 224 × 224 × 3.
+
+![image](https://user-images.githubusercontent.com/44960814/166679154-3aa526ed-cf28-419e-b517-2faae76eea9f.png)
+
+
+## Model Testing & Accuracy - 
+
+![image](https://user-images.githubusercontent.com/44960814/166679368-715a4048-8f59-49d3-84bf-1aa9524cbf0f.png)
+
+### Training Accuracy - 98.91%
+### Validation Accuracy - 97.40%
