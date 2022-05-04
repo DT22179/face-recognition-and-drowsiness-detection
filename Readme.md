@@ -29,3 +29,11 @@ The knowledge of an already trained machine learning model is transferred to a d
 
 ![image](https://user-images.githubusercontent.com/44960814/166678520-8102f427-1d2b-46bb-bd9c-470653c91ab0.png)
 
+Transfer learning offers a number of advantages, the most important of which are reduced training time, improved neural network performance (in most circumstances), and the absence of a large amount of data.
+
+To train a neural model from scratch, a lot of data is typically needed, but access to that data isn’t always possible – this is when transfer learning comes in handy.
+
+![image](https://user-images.githubusercontent.com/44960814/166678680-ca4bbedd-f768-4e88-9ed8-78b1e1982ddb.png)
+
+
+Because the model has already been pre-trained, a good machine learning model can be generated with fairly little training data using transfer learning. This is especially useful in natural language processing, where huge labelled datasets require a lot of expert knowledge. Additionally, training time is decreased because building a deep neural network from the start of a complex task can take days or even weeks.
