@@ -12,3 +12,20 @@ longer in the teacher’s brain rather translated in numbers that can be analyse
 ### Face Recognition -This is a few shot learning live face attendance systems. The model should be able to real-time identify attending students in the live class based on few images of students.
 
 ### Drowsiness detector - This will detect facial landmarks and extract the eye regions. The algorithm should be able to identify students who are not attentive and drowsing in the class.
+
+
+## Face - Recognition Library - 
+1. Recognize and manipulate faces from Python or from the command line with the world's simplest face recognition library.
+
+2. Built using dlib's state-of-the-art face recognition built with deep learning. The model has an accuracy of 99.38% on the Labeled Faces in the Wild benchmark.
+
+3. This also provides a simple face_recognition command line tool that lets you do face recognition on a folder of images from the command line!
+
+
+## Drowsiness Detection Using Transfer Learning - 
+The reuse of a pre-trained model on a new problem is known as transfer learning in machine learning. A machine uses the knowledge learned from a prior assignment to increase prediction about a new task in transfer learning. You could, for example, use the information gained during training to distinguish beverages when training a classifier to predict whether an image contains cuisine.
+
+The knowledge of an already trained machine learning model is transferred to a different but closely linked problem throughout transfer learning. For example, if you trained a simple classifier to predict whether an image contains a backpack, you could use the model’s training knowledge to identify other objects such as sunglasses.
+
+![image](https://user-images.githubusercontent.com/44960814/166678520-8102f427-1d2b-46bb-bd9c-470653c91ab0.png)
+
