@@ -6,3 +6,9 @@ class scenario is yet an open-end challenge.In a physical classroom during a lec
 mood. Because of this drawback, students are not focusing on content due to lack of surveillance. While digital platforms have limitations in terms of physical surveillance but it comes with the power of data and machines which can work for you. It provides data in the form of video, audio, and texts
 which can be analysed using deep learning algorithms. Deep learning backed system not only solves the surveillance issue, but it also removes the human bias from the system, and all information is no
 longer in the teacher’s brain rather translated in numbers that can be analysed and tracked.
+
+
+## Problem Statement
+### Face Recognition -This is a few shot learning live face attendance systems. The model should be able to real-time identify attending students in the live class based on few images of students.
+
+### Drowsiness detector - This will detect facial landmarks and extract the eye regions. The algorithm should be able to identify students who are not attentive and drowsing in the class.
